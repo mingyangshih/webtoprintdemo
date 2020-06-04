@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.tpx {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: Arial, Helvetica,'Microsoft JhengHei', sans-serif !important;
+}
+p.tpx, 
+li.tpx {
+	font-size: 12px;
+	line-height: 1.5;
+}
+ol.tpx, 
+ul.tpx {
+	list-style: none;
+}
+.tpx.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.tpx.clearfix {
+	display: block;
+}
+/* Hides from IE-mac \*/
+
+* html .tpx.clearfix {
+	height: 1%;
+}
+/* End hide from IE-mac */
+
+a.tpx img {
+	border: none;
+}
+a.tpx {
+	text-decoration: none;
+}
